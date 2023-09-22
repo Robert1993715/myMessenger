@@ -2,19 +2,18 @@
 
 RelatedChat is an open-source alternative communication platform. Both iOS (Swift), Android (React Native), and Web (React) version source codes are available.
 
-<img src="https://related.chat/messenger/web1.png" width="880">
+<img src="https://rel.codes/messenger/web1.png" width="880">
 
-<img src="https://related.chat/messenger/android1.png" width="880">
+<img src="https://rel.codes/messenger/android1.png" width="880">
 
 ## NEW FEATURES
 
-- Live [demo server](https://relatedchat.io) available
 - Updated iOS (Swift) codebase
 - New Android (React Native) version
 - New Desktop browser (React) version
 - Single backend server (using [GraphQLite](https://graphqlite.com))
 
-<img src="https://related.chat/messenger/ios11.png" width="880">
+<img src="https://rel.codes/messenger/ios11.png" width="880">
 
 ## FEATURES
 
@@ -56,16 +55,14 @@ RelatedChat is an open-source alternative communication platform. Both iOS (Swif
 - Supports native iOS Dark Mode
 - Supported devices: iPhone SE - iPhone 13 Pro Max
 
-<img src="https://related.chat/messenger/ios12.png" width="880">
-<img src="https://related.chat/messenger/ios13.png" width="880">
+<img src="https://rel.codes/messenger/ios12.png" width="880">
+<img src="https://rel.codes/messenger/ios13.png" width="880">
 
 ## INSTALLATION (iOS)
 
-**1.,** Run `pod install` first (the [CocoaPods](https://cocoapods.org) Frameworks and Libraries are not included in the repo).
+**1.,** Create some test users by using a demo server.
 
-**2.,** Create some test users by using the [demo server](https://relatedchat.io).
-
-**3.,** Open the `app.xcworkspace` from Xcode and select Product/Run (⌘ R).
+**2.,** Open the `app.xcodeproj` from Xcode and select Product/Run (⌘ R).
 
 ## INSTALLATION (Android)
 
@@ -82,9 +79,9 @@ RelatedChat is an open-source alternative communication platform. Both iOS (Swif
 You can install RelatedChat on any servers (Windows, Linux or macOS), by using Docker. Just download the Docker Compose file to your computer and initiate the process.
 
 ```
-curl -o docker-compose.yml https://gqlite.com/relatedchat/docker-compose.yml
+curl -o docker-compose.yml https://rel.codes/messenger/docker-compose.yml
 
-docker-compose up -d
+docker compose up -d
 ```
 
 Make sure to change all the sensitive values in your YAML file before building your server.
@@ -113,7 +110,7 @@ environment:
 
 MIT License
 
-Copyright (c) 2023 Related Code
+Copyright (c) 2024 Related Code
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
