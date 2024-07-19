@@ -107,7 +107,6 @@ environment:
   ADMIN_EMAIL: admin@example.com
   ADMIN_PASSWORD: gqlserver
 
-  SECRET_KEY: f2e85774-9a3b-46a5-8170-b40a05ead6ef
 ```
 
 ## LICENSE
